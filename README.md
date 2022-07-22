@@ -24,3 +24,8 @@ you may add compilier flags of your choice
 ```
 should print a fasta formatted file to stdout
 with one sequence specification per chain. 
+
+### special features
+The tool omits strcmp() or other string comparisons functions
+by usage of 4 bytes integers that can store just enough data 
+to hold a 3 character long C-string.
