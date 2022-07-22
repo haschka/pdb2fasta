@@ -5,7 +5,7 @@ Extracts the fasta sequence from protein stored in a PDB file.
 This is a tool inspired by Pierre Poulain's pdb2fasta in bash
 article c.f.: [https://cupnet.net/pdb2fasta/](https://cupnet.net/pdb2fasta/)
 The tool outlined in this article however has several quriks and fails on 
-PDB files such as [7VWC](https://www.rcsb.org/structure/7VWC). 
+PDB files such as [7VWC](https://www.rcsb.org/structure/7VWC) . 
 Actually it is also pdb2fasta in bash,awk,sed,etc. than pdb2fasta simply in bash. 
 
 I thought it is time to join the pdb2fasta game and write my own. 
