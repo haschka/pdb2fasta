@@ -7,8 +7,7 @@ article c.f.: [https://cupnet.net/pdb2fasta/](https://cupnet.net/pdb2fasta/)
 The tool outlined in this article however has several quriks and fails on 
 PDB files such as [7VWC](https://www.rcsb.org/structure/7VWC). Further might be 
 better called pdb2fasta in bash,awk,sed,etc. than pdb2fasta in bash. 
-As I kind of got fed up with it I thought it is time to join the pdb2fasta game
-and write my own. 
+I thought it is time to join the pdb2fasta game and write my own. 
 
 As such, here, a hopefully better, more standard conformant tool in C.
 
