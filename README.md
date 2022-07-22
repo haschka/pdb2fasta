@@ -4,12 +4,13 @@ Extracts the fasta sequence from protein stored in a PDB file.
 
 This is a tool inspired by Pierre Poulain's pdb2fasta in bash
 article c.f.: [https://cupnet.net/pdb2fasta/](https://cupnet.net/pdb2fasta/)
-The tool outlined there however has several quriks and fails on 
-PDB files such as [7VWC](https://www.rcsb.org/structure/7VWC), and might be 
-better called pdb2fasta in bash,awk,sed,etc. than pdb2fasta in bash.
+The tool outlined in this article however has several quriks and fails on 
+PDB files such as [7VWC](https://www.rcsb.org/structure/7VWC). Further might be 
+better called pdb2fasta in bash,awk,sed,etc. than pdb2fasta in bash. 
+As I kind of got fed up with it I thought it is time to join the pdb2fasta game
+and write my own. 
 
-In order to overcome this problem here a hopefully better, more standard
-conformant tool in C.
+As such, here, a hopefully better, more standard conformant tool in C.
 
 ### compilation
 compile with the c compilier of your choice, here gcc
